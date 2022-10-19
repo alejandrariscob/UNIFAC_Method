@@ -2,6 +2,9 @@
 UNIFAC Method implemented in Python to calculate activity coefficient and Pxy diagram for a non-ideal binary mixture.
 
 This work includes:
+- **Properties_Comp.csv** file containing properties for different (but limited) components. Feel free to extend the database!
+
+*Note:* A,B,C correspond to Antoines' Equation coefficients; whereas the tMin and tMax columns represent the temperature range where those coefficients are valid.
 - **Interaction_Parameters.csv file** containing the UNIFAC principal group interaction parameters from Table H.2 of Smith et al. (2004).
 - **Ksubgroup_Parameters.csv file** containing the UNIFAC subgroup parameters from Table H.1 of Smith et al. (2004).
 - **FuncionesUNIFAC.py** containg the main calculations of the UNIFAC Method.
