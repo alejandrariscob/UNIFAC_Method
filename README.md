@@ -1,6 +1,13 @@
 # UNIFAC_Method
 UNIFAC Method implemented in Python to calculate activity coefficient and Pxy diagram for a non-ideal binary mixture.
 
+This work includes:
+- **Interaction_Parameters.csv file** containing the UNIFAC principal group interaction parameters from Table H.2 of Smith et al. (2004).
+- **Ksubgroup_Parameters.csv file** containing the UNIFAC subgroup parameters from Table H.1 of Smith et al. (2004).
+- **FuncionesUNIFAC.py** containg the main calculations of the UNIFAC Method.
+- **main.py** as the main program with the components of the binary mixture as input and the Pxy diagram as the final outcome.
+
+Here is a little tutorial (It's in Spanish tho!): https://youtu.be/hUNDTKfeCVw
 
 # Copyright
 Copyright: Alejandra Risco Bravo, Guayaquil, Ecuador.
